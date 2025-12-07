@@ -37,8 +37,8 @@ export default function AvatarExample() {
 ## Props
 
 - All standard `next/image` props are supported (`ImageProps`).
-- `fallbackSrc?: ImageProps['src']` — alternative image to display when the primary one fails.
-- `onFallback?: () => void` — callback fired exactly once when switching to the fallback source.
+- `fallbackSrc?: ImageProps['src']` ï¿½ alternative image to display when the primary one fails.
+- `onFallback?: () => void` ï¿½ callback fired exactly once when switching to the fallback source.
 
 ## How it works
 
@@ -64,6 +64,8 @@ Server rendering is unaffected; fallback logic only runs in the browser once the
 - Image optimization rules from your `next.config.js` still apply; ensure the fallback source is allowed (static asset, public folder, or configured remote).
 - This package targets React 18+ and Next.js 13+.
 
+## Developed by nipunarambukkanage
+
 ## License
 
-MIT © 2025 Nipuna Rambukkanage
+MIT ï¿½ 2025 Nipuna Rambukkanage
