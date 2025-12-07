@@ -1,0 +1,9 @@
+tests/
+.github/
+vitest.config.ts
+tsup.config.ts
+tsconfig.json
+coverage/
+.DS_Store
+.env*
+.npmrc

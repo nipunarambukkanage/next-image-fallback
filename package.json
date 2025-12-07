@@ -1,0 +1,58 @@
+{
+  "name": "next-image-fallback",
+  "version": "1.0.0",
+  "description": "Drop-in replacement for next/image with automatic fallback support.",
+  "main": "dist/index.cjs",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.cjs",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "scripts": {
+    "build": "tsup",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "prepare": "npm run build"
+  },
+  "keywords": [
+    "nextjs",
+    "next",
+    "next/image",
+    "fallback",
+    "react",
+    "typescript",
+    "image",
+    "app router",
+    "pages router"
+  ],
+  "author": "Nipuna Rambukkanage",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nipunarambukkanage/next-image-fallback.git"
+  },
+  "peerDependencies": {
+    "react": ">=18",
+    "next": ">=13"
+  },
+  "devDependencies": {
+    "@types/react-dom": "^18.3.0",
+    "@testing-library/jest-dom": "^6.4.1",
+    "@testing-library/react": "^14.2.1",
+    "@types/node": "^20.14.10",
+    "@types/react": "^18.3.5",
+    "jsdom": "^24.0.0",
+    "next": "^14.2.5",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "tsup": "^8.0.1",
+    "typescript": "^5.6.3",
+    "vitest": "^1.6.0"
+  },
+  "sideEffects": false
+}
