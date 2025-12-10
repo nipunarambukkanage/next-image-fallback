@@ -167,6 +167,7 @@ const AlternativeFallbackPlaceholder: React.FC<{
       <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
         {showIcon && (
           <svg
+            aria-hidden="true"
             style={getIconStyles()}
             width={typeof width === 'number' && width < 100 ? '16' : '24'}
             height={typeof width === 'number' && width < 100 ? '16' : '24'}
