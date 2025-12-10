@@ -1,6 +1,6 @@
 {
   "name": "next-image-fallback",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Drop-in replacement for next/image with automatic fallback support.",
   "main": "dist/index.cjs",
   "module": "dist/index.mjs",
